@@ -1,6 +1,6 @@
 # ZigoDDOS
 js : 
- gradient-string cluster crypto http2 http events playwright chalk net tls url fs axios path puppeteer hpack fake-useragent cloudscraper randomstring zombie
+ https-proxy-agent gradient-string cluster crypto http2 http events playwright chalk net tls url fs axios path puppeteer hpack fake-useragent cloudscraper randomstring zombie
 
  py :
 pip install -r requirements.txt
