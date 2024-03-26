@@ -10,3 +10,14 @@ apt -y update && apt -y install curl wget libcurl4 libssl-dev python3 python3-pi
 
  api 
  https://github.com/hoaan1995/API-SSH
+
+
+
+sudo apt update
+sudo apt upgrade
+
+sudo apt install -y curl
+
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+
+sudo apt install -y nodejs
