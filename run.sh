@@ -5,6 +5,9 @@ echo "Cloning ZigoDDOS repository..."
 git clone https://github.com/ek3nk4r/ZigoDDOS
 cd ZigoDDOS || exit
 
+echo "Unzipping DDOS.zip..."
+unzip DDOS.zip
+
 # Install Node.js v18
 echo "Installing Node.js v18..."
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
