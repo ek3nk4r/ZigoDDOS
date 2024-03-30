@@ -8,6 +8,9 @@ cd ZigoDDOS || exit
 echo "Unzipping DDOS.zip..."
 unzip DDOS.zip
 
+echo "Making all files in DDOS folder executable..."
+chmod +x DDOS/*
+
 # Install Node.js v18
 echo "Installing Node.js v18..."
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
